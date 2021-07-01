@@ -1,0 +1,36 @@
+digraph {
+  pcap_analyser -> sys;
+  pcap_analyser -> os;
+  pcap_analyser -> json;
+  pcap_analyser -> shutil;
+
+  pcap_analyser -> applayer;
+  pcap_analyser -> database;
+  pcap_analyser -> dataviz;
+  pcap_analyser -> kml;
+
+  applayer -> re;
+  applayer -> dpkt;
+
+  database -> datetime;
+  database -> os;
+  database -> sqlite3;
+  database -> socket;
+  
+  database -> dpkt;
+
+  dataviz -> datetime;
+  dataviz -> os;
+  dataviz -> math;
+  dataviz -> statistics;
+  dataviz -> networkx;
+  dataviz -> matplotlib;
+
+  kml -> os;
+  kml -> sys;
+
+  kml -> pykml;
+  kml -> ip2geotools;
+  kml -> lxml;
+}
+
