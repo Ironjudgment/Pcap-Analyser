@@ -6,7 +6,7 @@ Created for a coursework assessment.
 
 Functionality:
 
-1. Opening and parseing a pcap fil.e
+1. Opening and parseing a pcap file
 2. Creating and outputting a summary of the number of packets for each traffic type (UDP, TCP, IGMP) showing also the first and last timestamp and the mean packet length for each type.
 3. Finding email addresses and URIs of all attached content.
 4. Extracting the sender and destination IP addresses for all packets and count how many packets were sent from/to each.
